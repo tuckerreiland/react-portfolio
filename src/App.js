@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 // import About from "./pages/About";
 // import Portfolio from "./pages/Portfolio";
@@ -10,22 +10,7 @@ function App() {
   return (
     <div className="bg-cowboycream">
 		<NavBar/>
-		{/* <Routes>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
-          <Route path='/contact' element={<Contact/>}/>
-          <Route path='/resume' element={<Resume/>}/>
-        </Routes>
-		 */}
-      {/* <Router>
-        <NavBar/>
-        <Routes>
-          <Route path='/' element={<About/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
-          <Route path='/contact' element={<Contact/>}/>
-          <Route path='/resume' element={<Resume/>}/>
-        </Routes>
-      </Router> */}
+	  	<Footer/>
     </div>
   );
 }
