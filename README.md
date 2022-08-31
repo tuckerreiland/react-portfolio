@@ -29,15 +29,13 @@ npm start
 ```
 to start build the site and start the server.  
 
-At this time, the post feature for comments is only available on each posts individual page.  Additionally, the update and delete post feature is only available on the posts' screen.
 
 ## Github
 
-* https://github.com/tuckerreiland/CMS-style-blog-site
-
+* https://github.com/tuckerreiland/react-portfolio
 
 ## Deployed Link
-* https://cmsstyleblogsite.herokuapp.com/
+* https://630f737f03e3231e7e4c06f7--react-portfolio-tucker-reiland.netlify.app
 
 
 ## License
